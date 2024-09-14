@@ -59,16 +59,19 @@ function Add() {
        />
 
        <select 
+       type='text' 
+       placeholder='Category' 
        value={category}
-       onChange={(e)=> setCategory(e.target.value0)}
-       className='user-input user-input-select'
-        >
+       onChange={(e)=> {
+       setCategory(e.target.value);
+       }}
+       className='user-input user-input-select'>
 
         <option value="">Select Category</option>
-        <option value="shopping">Shopping</option>
-        <option value="work">Work</option>
-        <option value="learning">Learning</option>
-        <option value="personal">Personal</option>
+        <option value="Shopping">Shopping</option>
+        <option value="Work">Work</option>
+        <option value="Learning">Learning</option>
+        <option value="Personal">Personal</option>
         <option value="Health">Health</option>
 
        </select>

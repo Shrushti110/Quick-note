@@ -35,7 +35,7 @@ function Home() {
 
       <div className='btn-container'>
         <button className='btn btn-primary'>📝Add Notes</button>
-        <button className=' btn btn-secondary'>📖View Notes</button>
+        <button className=' btn btn-secondary'>📖Show Notes</button>
       </div>
     </div>
   )

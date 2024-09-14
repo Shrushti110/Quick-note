@@ -1,0 +1,94 @@
+.note-card{
+   display: flex;
+   align-items: center;
+   background-color: #ffe8f5;
+   margin: 10px 30px;
+   padding: 10px;
+   border-radius: 20px;
+   box-shadow: 0 0 10px rgb(200, 196, 190);
+   position: relative;
+}
+.notecard-emoji{
+font-size: 40px;
+margin-right: 40px;
+}
+.notecard-title{
+   margin: 0;
+}
+.notecard-description{
+   margin: 0;
+}
+.notecard-category{
+   position: absolute;
+   top: 10px;
+   right: 10px;
+   padding: 5px 10px;
+   border-radius: 5px;
+   background-color: #ccf1f1;
+   font-size: 14px;
+   min-width:65px;
+   text-align: center;
+}
+.note-category-emoji{
+   font-size: 15px;
+   margin-right: 5px;
+}
+/*const CATEGORY_EMOJI = {
+    shopping: "🛍",
+    work: "💼",
+    personal: "🤝",
+    learning: "📚",
+    Health: "🏥",
+  }*/
+  
+.bg-shopping{
+   background-color: aqua;
+}
+.bg-work{
+   background-color: #f7f7f7;
+}
+.bg-personal{
+   background-color: #aeaecd;
+}
+.bg-learninng{
+   background-color: #9f6565;
+}
+.bg-health{
+   background-color: #f01212;
+}
+.delete{
+   height: 20px;
+   position: absolute;
+   bottom: 5px;
+   right: 30px;
+   cursor: pointer;
+}
+.delete:hover{
+   transform: scale(1.1);
+   transition: 0.3s;
+}
+@media screen and(max-width:500px) {
+   .note-card{
+      margin: 10px 5px;
+   }
+   .notecard-emoji{
+      font-size: 45px;
+      margin-right: 10px;
+   }
+   .notecard-title{
+      font-size: 16px;
+   }
+   .notecard-description{
+      font-size: 14px;
+   }
+   .notecard-category{
+      font-size: 10px;
+      min-width: 50px;
+      top: 2px;
+      right: 6px;
+      padding: 1px 5px;
+   }
+   .note-category-emoji{
+      font-size: 12px;
+   }
+}
