@@ -1,0 +1,53 @@
+.user-input{
+    width: 400px;
+    background-color: rgb(255, 255, 255);
+    border: 1px solid gray;
+    border-radius: 20px;
+    padding: 10px 20px;
+    font-size: 18px;
+    display: block;
+    margin:0  auto ;
+    margin-top: 30px;
+    cursor:pointer;
+    text-align: center;
+    font-family: 'Courier New', Courier, monospace;
+}
+.user-input:hover{
+    box-shadow: 0 0 10px 0 rgb(206, 171, 254);
+
+}
+.user-input-select{
+    width:442px ;
+    color: rgb(103, 101, 101);
+    font-style: normal;
+}
+.emoji-picker{
+    position: fixed !important;
+    top: 20px;
+    left: 50%;
+    transform: translateX(-50%);
+    z-index: 1000;
+}
+.user-input-emoji{
+    text-align: center;
+    color: rgb(103, 101, 101);
+    font-family: 'Courier New', Courier, monospace;
+}
+.btn-add{
+    display: block;
+    margin: 30px auto;
+}
+
+@media screen and (max-width:500px) {
+    .user-input{
+        width: 230px;
+        font-size: 12px;
+    }
+    .user-input-select{
+        width: 265px;
+    }
+    .emoji-picker{
+        width: 88% !important;
+
+    }
+}

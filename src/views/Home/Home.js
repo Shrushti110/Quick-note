@@ -8,10 +8,10 @@ import FeatureCard from '../../components/FeatureCard/FeatureCard'
 function Home() {
   return (
     <div>
-      <h1 className='text-center text-primary' >Quick Note 📓</h1>
+      <h1 className='text-center text-primary app-title' >Quick Note 📓</h1>
       <p className='text-center text-gray'>
         I'm just writing a quick note. <del> Don't forget anything....</del> 👈.  Just a quick note to follow up on. {""}  
-        <span  className='highlight text-secondary'>Remember Everthing!🧠</span>
+        <span  className='highlight text-secondary description'>Remember Everthing!🧠</span>
       </p>
     <div>
     <h3 className='text-center'>Why choose a Quick Note for urgent updates?</h3>

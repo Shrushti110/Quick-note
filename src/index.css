@@ -3,7 +3,6 @@ body {
   padding: 20px 50px ;
   background-color: #FEFBD8;
 }
-
 .text-center{
   text-align: center;
 }
@@ -28,7 +27,6 @@ body {
   cursor: pointer;
 }
 .btn-primary{
- 
   background-color: #886d8a;
   color: white;
 }
@@ -43,5 +41,14 @@ body {
 .btn-secondary:hover{
   background-color:#f1cfb9 ;
   color: #000;
-  
+}
+@media screen and (max-width:500px) {
+  .btn{
+    margin: 10px;
+    min-width: 100px;
+    padding: 5px;
+  }
+  body{
+    padding: 5px 10px;
+  } 
 }
