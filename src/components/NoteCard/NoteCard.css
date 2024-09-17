@@ -8,6 +8,9 @@
    box-shadow: 0 0 10px rgb(200, 196, 190);
    position: relative;
 }
+.note-card:hover{
+   box-shadow: 0 0 10px rgb(111, 108, 100);
+}
 .notecard-emoji{
 font-size: 40px;
 margin-right: 40px;
@@ -24,7 +27,7 @@ margin-right: 40px;
    right: 10px;
    padding: 5px 10px;
    border-radius: 5px;
-   background-color: #ccf1f1;
+   background-color: #ffffff;
    font-size: 14px;
    min-width:65px;
    text-align: center;
@@ -33,28 +36,22 @@ margin-right: 40px;
    font-size: 15px;
    margin-right: 5px;
 }
-/*const CATEGORY_EMOJI = {
-    shopping: "🛍",
-    work: "💼",
-    personal: "🤝",
-    learning: "📚",
-    Health: "🏥",
-  }*/
-  
-.bg-shopping{
-   background-color: aqua;
+
+.bg-Shopping{
+   background-color:rgb(243, 228, 89);
 }
-.bg-work{
-   background-color: #f7f7f7;
+.bg-Work{
+   background-color:rgb(242, 200, 183);
+   width: 80px;
 }
-.bg-personal{
-   background-color: #aeaecd;
+.bg-Personal{
+   background-color:rgb(199, 170, 237);
 }
-.bg-learninng{
-   background-color: #9f6565;
+.bg-Learning{
+   background-color: hsl(240, 71%, 86%);
 }
-.bg-health{
-   background-color: #f01212;
+.bg-Health{
+   background-color:rgb(147, 242, 6);
 }
 .delete{
    height: 20px;

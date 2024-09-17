@@ -16,12 +16,13 @@ function deleteNote (index){
 // shopping, work, personal, learning, health
 
 function NoteCategory({category}){
+
   const CATEGORY_EMOJI = {
-    shopping: "🛍",
-    work: "💼",
-    personal: "🤝",
-    learning: "📚",
-    Health: "🏥",
+    "Shopping": "🛍",
+    "Work": "💼",
+    "Personal": "🤝",
+    "Learning": "📚",
+    "Health": "🏥"
   }
 
    return(
@@ -29,7 +30,7 @@ function NoteCategory({category}){
       <span className='note-category-emoji'>{CATEGORY_EMOJI[category]}</span>
       {titleCase(category)}
     </div>
-   )
+   );
 }
 
 function NoteCard({ index, title, description, category, emoji}) {

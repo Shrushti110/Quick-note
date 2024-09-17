@@ -4,6 +4,7 @@ import ImgSecure from "./shield.png"
 import ImgHeart from "./social-media.png"
 import ImgBrain from "./brain.png"
 import FeatureCard from '../../components/FeatureCard/FeatureCard'
+import {Link} from 'react-router-dom'
 
 function Home() {
   return (
@@ -34,8 +35,14 @@ function Home() {
     </div>
 
       <div className='btn-container'>
+
+        <Link to="/add">
         <button className='btn btn-primary'>📝Add Notes</button>
+        </Link>
+
+        <Link to="/show">
         <button className=' btn btn-secondary'>📖Show Notes</button>
+        </Link>
       </div>
     </div>
   )
